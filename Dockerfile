@@ -26,5 +26,7 @@ VOLUME ["/config","/data"]
 EXPOSE 32400
 
 ADD ./start.sh /start.sh
+RUN chmod +x /start.sh
+RUN chmod 755 /start.sh
 
 CMD ["/start.sh"]
