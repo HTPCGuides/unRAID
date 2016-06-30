@@ -1,5 +1,5 @@
 # unRAID Plex Media Server
-This is a Dockerfile to set up ([https://plex.tv/](https://plex.tv/) "Plex Media Server") - ([https://plex.tv/](https://plex.tv/))
+This is a Dockerfile to set up for [Plex Media Server](https://plex.tv/)
 
 ## Instructions
 ### Getting the docker image
