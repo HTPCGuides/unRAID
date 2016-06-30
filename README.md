@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # unRAID Plex Media Server
 This is a Dockerfile to set up ([https://plex.tv/](https://plex.tv/) "Plex Media Server") - ([https://plex.tv/](https://plex.tv/))
 
@@ -26,3 +27,6 @@ docker run --restart=always -d --name plex -h *your_host_name* -v /*your_config_
 ```
 
 
+=======
+# unRAID
+>>>>>>> c1fa76d14815ef3fb09188e1583bacb562261937
