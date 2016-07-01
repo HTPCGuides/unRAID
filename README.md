@@ -22,5 +22,5 @@ Instructions to run:
 
 ```
 docker rm -f plex
-docker run --restart=always -d --name plex -h *your_host_name* -v /*your_config_location*:/config -v /*your_videos_location*:/data -p 32400:32400 htpcguides/unraid-plex
+docker run --restart=always -d --name plex -h *your_host_name* -v /*your_config_location*:/config -v /*your_videos_location*:/unraid -p 32400:32400 htpcguides/unraid-plex
 ```

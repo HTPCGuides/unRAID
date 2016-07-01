@@ -2,8 +2,5 @@
 .git
 .gitignore
 
-#build files
-build.sh
-
 # Information files
 README.md
