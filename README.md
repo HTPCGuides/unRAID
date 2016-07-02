@@ -65,4 +65,4 @@ Type http://localhost:8888/web into the address bar
 
 The browser will connect to the server as if it were local and load Plex Web App
 
-[Reference] https://support.plex.tv/hc/en-us/articles/200288586-Installation
+[Reference](https://support.plex.tv/hc/en-us/articles/200288586-Installation)
