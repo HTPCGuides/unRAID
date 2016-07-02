@@ -23,12 +23,6 @@ fi
 
 usermod -a -G "${GROUP}" plex
 
-PREFS_DIR=/home/plex/Library/Application Support/Plex Media Server/
-if [[! -d $PREFS_DIR ]]; then
-  touch -p /home/plex/Library/Application Support/Plex Media Server/
-  echo -e "<?xml version="1.0" encoding="utf-8"?> \n<Preferences ManualPortMappingMode="1" AcceptedEULA="1" PublishServerOnPlexOnlineKey="1" /> \n" >> /home/plex/Library/Application Support/Plex Media Server/Preferences.xml
-fi
-
 # Remove previous pid if it exists
 rm "${PLEX_PID}"
 
