@@ -39,6 +39,7 @@ Example:
 
 ```
 ssh 192.168.0.212 -L 8888:localhost:32400
+```
 
 Open a browser window
 
@@ -48,7 +49,7 @@ The browser will connect to the server as if it were local and load Plex Web App
 
 ### Windows
 
-If you're using Windows on your local system and your server is on Linux or OS X, you'll need to use an application such as Putty that can create the SSH tunnel for you. You can use instructions like these for setting up the Putty/SSH connection. If following that, you would use this information:
+If you're using Windows on your local system and your server is on Linux or OS X, you'll need to use an application such as Putty that can create the SSH tunnel for you. You can use instructions like [these](http://www.skyverge.com/blog/how-to-set-up-an-ssh-tunnel-with-putty/) for setting up the Putty/SSH connection. If following that, you would use this information:
 
 ```
 Gateway: ip.address.of.server
@@ -63,3 +64,5 @@ Open a browser window
 Type http://localhost:8888/web into the address bar
 
 The browser will connect to the server as if it were local and load Plex Web App
+
+[Reference] https://support.plex.tv/hc/en-us/articles/200288586-Installation
